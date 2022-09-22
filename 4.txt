@@ -1,0 +1,5 @@
+
+.gitkeep lo utilizaremos sobre carpetas vacias para crear el esqueleto de nuestro poryecto
+
+.gitignore lo utilizarmeos para ignorar elementos que no queremos que se suban al repositorio
+(ignore es como una "blacklist" debemos señalar que queremos ignorar dentro de nuestro proyecto
