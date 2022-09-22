@@ -1,3 +1,47 @@
 body {
   background-color: aqua;
 }
+
+.box {
+  border: 1px solid red;
+  width: 200px;
+  height: 200px;
+  /* Float relatively floats them, relative */
+  float: right;
+  margin-left: 10px;
+  margin-bottom: 10px;
+
+  /* Need all these to center text in the exact center */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  /* Rounds borders, n% n% n% n% */
+
+  border-radius: 100%;
+}
+
+#div1 {
+  background-color: tomato;
+}
+
+#div2 {
+  background-color: yellow;
+}
+
+#div3 {
+  background-color: blue;
+}
+
+#div-centro {
+  background-color: aqua;
+  width: 100px;
+  height: 100px;
+
+  border: 1px solid red;
+  border-radius: 100%;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
