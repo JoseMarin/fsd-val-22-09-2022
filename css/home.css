@@ -1,0 +1,81 @@
+body {
+    margin: 0 0 0 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#head {
+    height: 10vh;
+    display: flex;
+    font-size: 14px;
+}
+
+#main {
+    background-color: rgb(47, 218, 47);
+    height: 75vh;
+    display: flex;
+    justify-content: center;
+}
+
+#footer {
+    background-color: rgb(204, 39, 163);
+    height: 15vh;
+}
+
+.head-c {
+    width: 50vw;
+    height: 10vh;
+}
+
+#head-izq {
+    display: flex;
+}
+
+#head-der {
+    background-color: yellowgreen;
+}
+
+#main-info {
+    background-color: orange;
+    width: 50vw;
+    height: 75vh;
+}
+
+#footer-link {
+    background-color: rgb(170, 65, 65);
+    display: flex;
+}
+
+#footer-link-izq {
+    background-color: blueviolet;
+    width: 30vw;
+}
+
+#footer-link-mid {
+    background-color: rgb(43, 220, 226);
+    width: 40vw;
+}
+
+#footer-link-der {
+    background-color: rgb(43, 226, 52);
+    width: 30vw;
+}
+
+.top-text {
+    text-decoration: none;
+    color: #202124;
+}
+
+.top-text:hover {
+    text-decoration: underline;
+}
+
+#sobre-google {
+    margin-top: 22px;
+    margin-left: 30px;
+}
+
+#tienda {
+    margin-top: 22px;
+    margin-left: 30px;
+}
+
