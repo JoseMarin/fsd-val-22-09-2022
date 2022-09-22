@@ -31,7 +31,16 @@ body {
 }
 
 #head-der {
-    background-color: yellowgreen;
+   text-align: right;
+}
+
+#gmail {
+    margin-right: 15px;
+    margin-top: 20px;
+}
+
+#imagenes {
+    margin-top: 20px;
 }
 
 #main-info {
@@ -71,11 +80,11 @@ body {
 
 #sobre-google {
     margin-top: 22px;
-    margin-left: 30px;
+    margin-left: 26px;
 }
 
 #tienda {
     margin-top: 22px;
-    margin-left: 30px;
+    margin-left: 20px;
 }
 
