@@ -10,14 +10,9 @@ body {
 }
 
 #main {
-    height: 75vh;
+    height: 80vh;
     display: flex;
     justify-content: center;
-}
-
-#footer {
-    background-color: rgb(204, 39, 163);
-    height: 15vh;
 }
 
 .head-c {
@@ -70,7 +65,6 @@ body {
 #main-info {
     width: 50vw;
     height: 75vh;
-    display: grid;
     justify-content: center;
     align-items: center;
 }
@@ -78,44 +72,129 @@ body {
 #logo-google {
     display: flex;
     justify-content: center;
-    margin-top: 130px;
+    margin-top: 166px;
+    margin-bottom: 26px;
 }
 
 #busqueda {
     border: 1px solid rgb(221, 219, 219);
-    border-radius: 20px;
+    border-radius: 30px;
     width: 578px;
-    height: 44px;
-    margin-bottom: 220px;
+    height: 42px;
+    background-color: white;
+    margin-left: 27px;
+    margin-bottom: 30px; 
 }
 
 input {
-    width: 170px;
-    height: 30px;
+    width: 165px;
+    height: 35px;
+    background-color: rgb(252, 249, 249);
+    border: 0px;
+    font-size: 15px;
+}
+
+input:hover {
+    border: 1px solid rgb(230, 222, 222);
+}
+
+#div-botones {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 30px;
+}
+
+#boton-buscar {
+    margin-right: 10px;
+}
+
+#main-info-idiomas {
+    display: flex;
+    justify-content: center;
+    font-size: 13px;
+    color: #4D5156;
+}
+
+.idiomas {
+    margin-left: 10px;
+}
+
+a {
+    text-decoration: none;
+}
+
+#footer {
+    background-color: rgb(247, 240, 245);
+    height: 10vh;
+    color: #808386;
+}
+
+#footer-superior {
+    height: 4vh;
+    display: flex;
+    align-items: center;
+}
+
+#footer-superior-espana {
+    margin-left: 30px;
+    margin-top: 5px;
+    font-size: 15px;
 }
 
 #footer-link {
-    background-color: rgb(170, 65, 65);
     display: flex;
+    margin-top: 13px;
 }
 
 #footer-link-izq {
-    background-color: blueviolet;
-    width: 30vw;
+    width: 35vw;
+    display: flex;
+    font-size: 14px;
 }
 
+#footer-izq-publicidad {
+    margin-left: 30px;
+    text-decoration: none;
+    color: #808386;
+}
+
+#footer-izq-publicidad:hover {
+    text-decoration: underline;
+}
+
+
 #footer-link-mid {
-    background-color: rgb(43, 220, 226);
-    width: 40vw;
+    width: 35vw;
+    font-size: 14px;
+    justify-content: center;
+}
+
+.carbono {
+    text-decoration: none;
+    color: #808386;
+}
+
+#carbono {
+    margin-left: 60px;
+}
+
+.carbono:hover {
+    text-decoration: underline;
 }
 
 #footer-link-der {
-    background-color: rgb(43, 226, 52);
     width: 30vw;
+    display: flex;
+    font-size: 14px;
+    margin-right: 30px;
+    justify-content: right;
+}
+
+.footer-derecha {
+    margin-left: 20px;
 }
 
 .top-text {
-    text-decoration: none;
     color: #202124;
 }
 
