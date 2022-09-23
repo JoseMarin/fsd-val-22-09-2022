@@ -79,11 +79,15 @@ body {
 #busqueda {
     border: 1px solid rgb(221, 219, 219);
     border-radius: 30px;
-    width: 578px;
-    height: 42px;
-    background-color: white;
+    width: 32vw;
+    height: 4vh;
     margin-left: 27px;
     margin-bottom: 30px; 
+}
+
+#search {
+    display: flex;
+    justify-content: center;
 }
 
 input {
@@ -121,6 +125,10 @@ input:hover {
 
 a {
     text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
 }
 
 #footer {
